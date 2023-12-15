@@ -10,8 +10,8 @@ int main(){
     char s2[50]="sushee";
 
     cout<<strcmp(s1,s2)<<endl;
-    strcpy(s1,s);
-    strcat(s1,s);
+    strcpy(s1,s2);
+    strcat(s1,s2);
     cout<<s1<<endl;
     char str[10]="true";
 
