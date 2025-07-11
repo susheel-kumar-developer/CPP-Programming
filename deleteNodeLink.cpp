@@ -10,7 +10,7 @@ using namespace std;
 
     void push(int new_left, int new_data, int new_mid, int new_right){
         LinkList *data1 = new LinkList();
-        data1.left=new_left;
+        data1->left = new_left;
         data1->val  = new_data;
         data1->next = nullptr;
         LinkList *temp = NULL;
@@ -30,6 +30,7 @@ int main()
 {
     //  LinkList data1 = new LinkList();
     LinkList node;
+    LinkList *data1 = new LinkList();
     
     node.push(10,11,12,13);
 
