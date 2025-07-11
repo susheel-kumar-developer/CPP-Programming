@@ -61,7 +61,7 @@ int main(){
     // string s2 = "Not a palindrome";
     // You can change the input string to test other cases
     // Call the function to check for palindrome
-    bool result = solution.isPalindrome(s); // Call the function to check for palindrome
+    bool result = solution.isPalindrome(s);  // Call the function to check for palindrome
     cout<< "Is the string \"" << s << "\" a palindrome? " 
         << (result ? "Yes" : "No") << endl; // Output the result
     return 0;
